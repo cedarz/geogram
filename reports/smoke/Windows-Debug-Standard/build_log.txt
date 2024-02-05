@@ -656,8 +656,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   clapack_clange.c
   clapack_clanhs.c
   clapack_clarf.c
-  clapack_clarfp.c
   clapack_clarfg.c
+  clapack_clarfp.c
   clapack_clarnv.c
   clapack_clartg.c
   clapack_clascl.c

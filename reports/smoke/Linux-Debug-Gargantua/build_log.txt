@@ -20,8 +20,8 @@
 [ 10%] Building CXX object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/PoissonRecon/poisson_geogram.cpp.o
 [ 10%] Building CXX object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/xatlas/xatlas.cpp.o
 [ 10%] Built target geogram_third_party
+[ 10%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/android_utils.cpp.o
 [ 11%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/algorithm.cpp.o
-[ 11%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/android_utils.cpp.o
 [ 12%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/assert.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
@@ -62,6 +62,13 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 [ 14%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/command_line.cpp.o
 [ 14%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/command_line_args.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
+                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
+                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/command_line.cpp:44:
+/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
+/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
+  372 |                         mask, std::memory_order_acquire
+      |                         ^~~~
+In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/command_line_args.cpp:42:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
@@ -71,18 +78,12 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
-In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/basic/command_line.cpp:44:
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
-  372 |                         mask, std::memory_order_acquire
-      |                         ^~~~
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::release_spinlock(GEO::index_t)’:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
 [ 15%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/common.cpp.o
+[ 15%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/counted.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/common.cpp:41:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
@@ -93,7 +94,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
-[ 15%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/counted.cpp.o
 [ 16%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/debug_stream.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
@@ -652,7 +652,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
 [ 41%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_topology.cpp.o
-[ 41%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/triangle_intersection.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45,
@@ -665,6 +664,8 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
+[ 41%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/triangle_intersection.cpp.o
+[ 42%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/CDT_2d.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45,
@@ -678,8 +679,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
-[ 42%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/CDT_2d.cpp.o
-[ 42%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/LFS.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45,
@@ -694,6 +693,7 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
+[ 42%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/LFS.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46,
@@ -792,7 +792,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
       |                                         ^~~~
 [ 46%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/periodic.cpp.o
 [ 47%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/periodic_delaunay_3d.cpp.o
-[ 47%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/voronoi/CVT.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46,
@@ -806,6 +805,7 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
+[ 47%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/voronoi/CVT.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45,
@@ -1007,6 +1007,7 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 [ 60%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/colormap.cpp.o
 [ 61%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image.cpp.o
 [ 61%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_library.cpp.o
+[ 62%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_rasterizer.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/image/image_library.cpp:45:
@@ -1018,7 +1019,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
       |                                         ^~~~
-[ 62%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_rasterizer.cpp.o
 [ 62%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_serializer.cpp.o
 [ 63%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_serializer_pgm.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
@@ -1047,7 +1047,7 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 [ 64%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/image/image_serializer_xpm.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_stb.cpp:45:
+                 from /home/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_xpm.cpp:43:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   372 |                         mask, std::memory_order_acquire
@@ -1058,7 +1058,7 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
       |                                         ^~~~
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
-                 from /home/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_xpm.cpp:43:
+                 from /home/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_stb.cpp:45:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::acquire_spinlock(GEO::index_t)’:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   372 |                         mask, std::memory_order_acquire
@@ -1227,10 +1227,6 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   372 |                         mask, std::memory_order_acquire
       |                         ^~~~
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::release_spinlock(GEO::index_t)’:
-/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
-  389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
-      |                                         ^~~~
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
                  from /home/runner/work/geogram/geogram/src/bin/geodump/main.cpp:43:
@@ -1238,6 +1234,10 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   372 |                         mask, std::memory_order_acquire
       |                         ^~~~
+/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::release_spinlock(GEO::index_t)’:
+/home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
+  389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
+      |                                         ^~~~
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h: In member function ‘void GEO::Process::CompactSpinLockArray::release_spinlock(GEO::index_t)’:
 /home/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: conversion from ‘GEO::index_t’ {aka ‘long unsigned int’} to ‘std::__atomic_base<unsigned int>::__int_type’ {aka ‘unsigned int’} may change value [-Wconversion]
   389 |                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
@@ -1301,14 +1301,14 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 [ 82%] Built target test_locks
 [ 83%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
 [ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
-[ 83%] Linking CXX executable ../../../bin/test_expansion_nt
 [ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
+[ 84%] Linking CXX executable ../../../bin/test_expansion_nt
 [ 84%] Built target test_expansion_nt
 [ 85%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
 [ 85%] Linking CXX executable ../../../bin/test_HLBFGS
+[ 85%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
 [ 85%] Built target test_HLBFGS
 [ 86%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
-[ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45,
@@ -1428,11 +1428,11 @@ In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/pr
 [ 96%] Linking CXX executable ../../../../bin/manifold_harmonics
 [ 96%] Built target manifold_harmonics
 [ 97%] Building C object src/examples/geogram/opennl_basic_example/CMakeFiles/opennl_basic_example.dir/main.c.o
-[ 97%] Linking CXX executable ../../../../bin/opennl_mesh_smooth
 [ 97%] Linking C executable ../../../../bin/opennl_basic_example
-[ 97%] Built target opennl_mesh_smooth
+[ 97%] Linking CXX executable ../../../../bin/opennl_mesh_smooth
 [ 97%] Built target opennl_basic_example
 [ 98%] Building CXX object src/examples/geogram/simple_raytrace/CMakeFiles/simple_raytrace.dir/main.cpp.o
+[ 98%] Built target opennl_mesh_smooth
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
 In file included from /home/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44,
                  from /home/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47,
