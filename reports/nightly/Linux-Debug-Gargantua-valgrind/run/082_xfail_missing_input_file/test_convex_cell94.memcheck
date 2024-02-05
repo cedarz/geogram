@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/test_convex_cell shape=file</line>
 </preamble>
 
-<pid>7430</pid>
-<ppid>6667</ppid>
+<pid>7384</pid>
+<ppid>6627</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -41,15 +41,97 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:01.248 </time>
+  <time>00:00:00:01.234 </time>
 </status>
 
 <error>
-  <unique>0x1</unique>
+  <unique>0x0</unique>
   <tid>1</tid>
   <kind>Leak_DefinitelyLost</kind>
   <xwhat>
-    <text>112 bytes in 1 blocks are definitely lost in loss record 2 of 2</text>
+    <text>0 bytes in 1 blocks are definitely lost in loss record 1 of 3</text>
+    <leakedbytes>0</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483C583</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4A3851C</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Process::BasicSpinLockArray::resize(unsigned long)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>thread_sync.h</file>
+      <line>351</line>
+    </frame>
+    <frame>
+      <ip>0x4A37AA0</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::PackedArrays::set_thread_safe(bool)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>packed_arrays.cpp</file>
+      <line>137</line>
+    </frame>
+    <frame>
+      <ip>0x4C8C9EC</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay::set_thread_safe(bool)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/delaunay</dir>
+      <file>delaunay.h</file>
+      <line>581</line>
+    </frame>
+    <frame>
+      <ip>0x4C8BC61</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay_NearestNeighbors::Delaunay_NearestNeighbors(unsigned char)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/delaunay</dir>
+      <file>delaunay_nn.cpp</file>
+      <line>48</line>
+    </frame>
+    <frame>
+      <ip>0x4C74B08</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay* GEO::FactoryCreator1&lt;GEO::Delaunay, unsigned char&gt;::create&lt;GEO::Delaunay_NearestNeighbors&gt;(unsigned char const&amp;)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>factory.h</file>
+      <line>332</line>
+    </frame>
+    <frame>
+      <ip>0x4C73F74</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Factory1&lt;GEO::Delaunay, unsigned char&gt;::create_object(std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;, unsigned char const&amp;)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>factory.h</file>
+      <line>362</line>
+    </frame>
+    <frame>
+      <ip>0x4C70E62</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay::create(unsigned char, std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt; const&amp;)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/delaunay</dir>
+      <file>delaunay.cpp</file>
+      <line>162</line>
+    </frame>
+    <frame>
+      <ip>0x1136D3</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/test_convex_cell</obj>
+      <fn>main</fn>
+      <dir>/home/runner/work/geogram/geogram/src/tests/test_convex_cell</dir>
+      <file>main.cpp</file>
+      <line>292</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x2</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>112 bytes in 1 blocks are definitely lost in loss record 3 of 3</text>
     <leakedbytes>112</leakedbytes>
     <leakedblocks>1</leakedblocks>
   </xwhat>
@@ -60,7 +142,7 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x4A2E363</ip>
+      <ip>0x4A2CDDF</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>(anonymous namespace)::CERRStream::CERRStream()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -68,7 +150,7 @@
       <line>75</line>
     </frame>
     <frame>
-      <ip>0x4A3034F</ip>
+      <ip>0x4A2EDD7</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -76,7 +158,7 @@
       <line>395</line>
     </frame>
     <frame>
-      <ip>0x4A2F4D6</ip>
+      <ip>0x4A2DF5E</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -84,7 +166,7 @@
       <line>226</line>
     </frame>
     <frame>
-      <ip>0x49D915B</ip>
+      <ip>0x49D7BD7</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::initialize(int)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>

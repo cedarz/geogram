@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpalite pts=5000 /home/runner/work/geogram/geogram/tests/data/Small/S2.obj out.meshb</line>
 </preamble>
 
-<pid>17033</pid>
-<ppid>6667</ppid>
+<pid>17007</pid>
+<ppid>6627</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -43,7 +43,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:03:16.467 </time>
+  <time>00:00:03:15.151 </time>
 </status>
 
 <error>
@@ -51,7 +51,7 @@
   <tid>1</tid>
   <kind>Leak_DefinitelyLost</kind>
   <xwhat>
-    <text>112 bytes in 1 blocks are definitely lost in loss record 3 of 7</text>
+    <text>112 bytes in 1 blocks are definitely lost in loss record 3 of 9</text>
     <leakedbytes>112</leakedbytes>
     <leakedblocks>1</leakedblocks>
   </xwhat>
@@ -62,7 +62,7 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x49FB363</ip>
+      <ip>0x49F9DDF</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>(anonymous namespace)::CERRStream::CERRStream()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -70,7 +70,7 @@
       <line>75</line>
     </frame>
     <frame>
-      <ip>0x49FD34F</ip>
+      <ip>0x49FBDD7</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -78,7 +78,7 @@
       <line>395</line>
     </frame>
     <frame>
-      <ip>0x49FC4D6</ip>
+      <ip>0x49FAF5E</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -86,7 +86,7 @@
       <line>226</line>
     </frame>
     <frame>
-      <ip>0x49A615B</ip>
+      <ip>0x49A4BD7</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::initialize(int)</fn>
       <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
@@ -100,6 +100,146 @@
       <dir>/home/runner/work/geogram/geogram/src/bin/vorpalite</dir>
       <file>main.cpp</file>
       <line>527</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x7</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>5,000 bytes in 1 blocks are definitely lost in loss record 8 of 9</text>
+    <leakedbytes>5000</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483C583</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4A0551C</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Process::BasicSpinLockArray::resize(unsigned long)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>thread_sync.h</file>
+      <line>351</line>
+    </frame>
+    <frame>
+      <ip>0x4A04BA9</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::PackedArrays::init(unsigned long, unsigned long, bool)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>packed_arrays.cpp</file>
+      <line>161</line>
+    </frame>
+    <frame>
+      <ip>0x4C3E89D</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay::update_neighbors()</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/delaunay</dir>
+      <file>delaunay.cpp</file>
+      <line>265</line>
+    </frame>
+    <frame>
+      <ip>0x4C59319</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Delaunay_NearestNeighbors::set_vertices(unsigned long, double const*)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/delaunay</dir>
+      <file>delaunay_nn.cpp</file>
+      <line>102</line>
+    </frame>
+    <frame>
+      <ip>0x4C88C7F</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::CentroidalVoronoiTesselation::Lloyd_iterations(unsigned long)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/voronoi</dir>
+      <file>CVT.cpp</file>
+      <line>151</line>
+    </frame>
+    <frame>
+      <ip>0x4B294DE</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::remesh_smooth(GEO::Mesh&amp;, GEO::Mesh&amp;, unsigned long, unsigned char, unsigned long, unsigned long, unsigned long, bool, double)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/mesh</dir>
+      <file>mesh_remesh.cpp</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0x11489B</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpalite</obj>
+      <fn>main</fn>
+      <dir>/home/runner/work/geogram/geogram/src/bin/vorpalite</dir>
+      <file>main.cpp</file>
+      <line>607</line>
+    </frame>
+  </stack>
+</error>
+
+<error>
+  <unique>0x8</unique>
+  <tid>1</tid>
+  <kind>Leak_DefinitelyLost</kind>
+  <xwhat>
+    <text>5,000 bytes in 1 blocks are definitely lost in loss record 9 of 9</text>
+    <leakedbytes>5000</leakedbytes>
+    <leakedblocks>1</leakedblocks>
+  </xwhat>
+  <stack>
+    <frame>
+      <ip>0x483C583</ip>
+      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
+      <fn>operator new[](unsigned long)</fn>
+    </frame>
+    <frame>
+      <ip>0x4A0551C</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::Process::BasicSpinLockArray::resize(unsigned long)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/basic</dir>
+      <file>thread_sync.h</file>
+      <line>351</line>
+    </frame>
+    <frame>
+      <ip>0x4C9AB87</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>(anonymous namespace)::RVD_Nd_Impl&lt;6u&gt;::compute_centroids_on_surface(double*, double*)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/voronoi</dir>
+      <file>RVD.cpp</file>
+      <line>406</line>
+    </frame>
+    <frame>
+      <ip>0x4C8A412</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::RestrictedVoronoiDiagram::compute_centroids(double*, double*)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/voronoi</dir>
+      <file>RVD.h</file>
+      <line>288</line>
+    </frame>
+    <frame>
+      <ip>0x4C88CBE</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::CentroidalVoronoiTesselation::Lloyd_iterations(unsigned long)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/voronoi</dir>
+      <file>CVT.cpp</file>
+      <line>152</line>
+    </frame>
+    <frame>
+      <ip>0x4B294DE</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/lib/libgeogram.so.1.8.9-rc</obj>
+      <fn>GEO::remesh_smooth(GEO::Mesh&amp;, GEO::Mesh&amp;, unsigned long, unsigned char, unsigned long, unsigned long, unsigned long, bool, double)</fn>
+      <dir>/home/runner/work/geogram/geogram/src/lib/geogram/mesh</dir>
+      <file>mesh_remesh.cpp</file>
+      <line>95</line>
+    </frame>
+    <frame>
+      <ip>0x11489B</ip>
+      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Debug/bin/vorpalite</obj>
+      <fn>main</fn>
+      <dir>/home/runner/work/geogram/geogram/src/bin/vorpalite</dir>
+      <file>main.cpp</file>
+      <line>607</line>
     </frame>
   </stack>
 </error>
