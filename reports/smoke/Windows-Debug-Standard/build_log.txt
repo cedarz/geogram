@@ -546,8 +546,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   drotg.c
   drotm.c
   drotmg.c
-  dsbmv.c
   dscal.c
+  dsbmv.c
   dsdot.c
   dspmv.c
   dspr.c
