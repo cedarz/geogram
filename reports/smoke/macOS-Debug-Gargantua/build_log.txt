@@ -26,10 +26,10 @@
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/assert.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 12%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/attributes.cpp.o
@@ -38,19 +38,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/b_stream.cpp:48:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -61,18 +61,18 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/command_line.cpp:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/command_line_args.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -81,20 +81,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 15%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/counted.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/common.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 16%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/debug_stream.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/debug_stream.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -104,10 +104,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/environment.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -116,19 +116,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/file_system.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/geofile.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -139,10 +139,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/line_stream.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -150,10 +150,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 20%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/packed_arrays.cpp.o
@@ -162,18 +162,18 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -182,10 +182,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/process_win.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process_unix.cpp:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/progress.cpp.o
@@ -195,10 +195,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/progress.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 23%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/stopwatch.cpp.o
@@ -208,10 +208,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/s
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/stopwatch.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -221,10 +221,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/exact_geometry.cpp:40:
@@ -233,10 +233,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -247,10 +247,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 27%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/numerics/multi_precision.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/matrix_util.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -259,19 +259,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/optimizer.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -283,20 +283,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -308,10 +308,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_CSG.cpp:40:
@@ -319,10 +319,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -331,10 +331,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_baking.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -345,10 +345,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_decimate.cpp:42:
@@ -356,10 +356,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -371,10 +371,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_distance.cpp:41:
@@ -382,10 +382,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -396,20 +396,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_frame_field.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -421,10 +421,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_halfedges.cpp:40:
@@ -432,10 +432,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -446,10 +446,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_io.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_local_operations.cpp:41:
@@ -457,10 +457,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -469,10 +469,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -483,10 +483,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_preprocessing.cpp:42:
@@ -494,10 +494,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -508,20 +508,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_reorder.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -531,10 +531,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -543,10 +543,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -555,10 +555,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -568,10 +568,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -582,10 +582,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -595,10 +595,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -607,10 +607,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/me
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -620,10 +620,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -634,10 +634,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numeric
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -649,74 +649,74 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delauna
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-2 warnings generated.
-[ 43%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_2d.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+2 warnings generated.
+[ 43%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_2d.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_2d.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_2d.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 44%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_3d.cpp.o
-2 warnings generated.
-[ 44%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_nn.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_3d.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_3d.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+2 warnings generated.
+[ 44%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_nn.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_nn.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_nn.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
-[ 45%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_tetgen.cpp.o
 2 warnings generated.
+[ 45%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_tetgen.cpp.o
 [ 45%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/delaunay_triangle.cpp.o
 [ 46%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/delaunay/parallel_delaunay_3d.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay_tetgen.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/parallel_delaunay_3d.cpp:42:
@@ -724,10 +724,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delauna
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -740,10 +740,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delauna
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/delaunay/delaunay.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/packed_arrays.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi/CVT.cpp:40:
@@ -752,10 +752,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -765,10 +765,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -779,10 +779,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -795,10 +795,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -807,10 +807,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi/convex_cell.h:49:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -821,10 +821,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -835,20 +835,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 51%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/voronoi/integration_simplex.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi/integration_simplex.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/voronoi/integration_simplex.h:48:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -857,10 +857,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/principal_axes.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -869,18 +869,18 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 52%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/points/kd_tree.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/colocate.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/kd_tree.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -888,10 +888,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/nn_search.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -902,26 +902,26 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/points/principal_axes.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 54%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_api.c.o
 [ 55%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_arpack.c.o
 [ 55%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_blas.c.o
+[ 56%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_cholmod.c.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/NL/nl_amgcl.cpp:17:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 56%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_cholmod.c.o
 [ 56%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_context.c.o
 [ 57%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_cuda.c.o
 [ 57%] Building C object src/lib/geogram/CMakeFiles/geogram.dir/NL/nl_iterative_solvers.c.o
@@ -938,10 +938,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/image/image_library.cpp:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -950,19 +950,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_pgm.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -972,19 +972,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_stb.cpp:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/image/image_serializer_xpm.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -996,20 +996,20 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/paramet
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_LSCM.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1021,44 +1021,44 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/paramet
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_global_param.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_atlas_maker.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_segmentation.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 67%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/parameterization/mesh_global_param.cpp.o
-2 warnings generated.
-[ 67%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/parameterization/mesh_param_packer.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_global_param.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_global_param.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+2 warnings generated.
+[ 67%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/parameterization/mesh_param_packer.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_param_packer.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_segmentation.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1068,33 +1068,33 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/paramet
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_segmentation.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 68%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/parameterization/mesh_segmentation.cpp.o
 2 warnings generated.
+[ 69%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/bibliography/bibliography.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_segmentation.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/parameterization/mesh_segmentation.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 69%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/bibliography/bibliography.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/bibliography/bibliography.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1104,49 +1104,49 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 70%] Built target geogram
 [ 70%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
 [ 70%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
-In file included from /Users/runner/work/geogram/geogram/src/bin/vorpastat/main.cpp:41:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
-                        mask, std::memory_order_acquire
-                        ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
-                spinlocks_[w].fetch_and(mask, std::memory_order_release);
-                              ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/bin/vorpacomp/main.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+                spinlocks_[w].fetch_and(mask, std::memory_order_release);
+                              ~~~~~~~~~ ^~~~
+In file included from /Users/runner/work/geogram/geogram/src/bin/vorpastat/main.cpp:41:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+                        mask, std::memory_order_acquire
+                        ^~~~
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
+[ 71%] Linking CXX executable ../../../bin/vorpacomp
 2 warnings generated.
-[ 71%] Linking CXX executable ../../../bin/vorpastat
-[ 72%] Linking CXX executable ../../../bin/vorpacomp
-[ 72%] Built target vorpastat
+[ 72%] Linking CXX executable ../../../bin/vorpastat
 [ 72%] Built target vorpacomp
 [ 73%] Building CXX object src/bin/geodump/CMakeFiles/geodump.dir/main.cpp.o
+[ 73%] Built target vorpastat
 [ 73%] Building CXX object src/bin/vorpalite/CMakeFiles/vorpalite.dir/main.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/bin/vorpalite/main.cpp:6:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/bin/geodump/main.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1161,87 +1161,87 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_convex_cell/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/ANN.cpp.o
+[ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_fix_rad_search.cpp.o
 2 warnings generated.
 [ 77%] Linking CXX executable ../../../bin/test_convex_cell
-[ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_fix_rad_search.cpp.o
 [ 77%] Built target test_convex_cell
+[ 77%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_pr_search.cpp.o
-[ 78%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
-[ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/bench_load/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
+[ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 2 warnings generated.
-[ 79%] Linking CXX executable ../../../bin/bench_load
-[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
-[ 79%] Built target bench_load
-[ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
-[ 81%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
-[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
+[ 78%] Linking CXX executable ../../../bin/bench_load
+[ 78%] Built target bench_load
+[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
+[ 80%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
+[ 80%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_locks/main.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
+[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
 2 warnings generated.
-[ 82%] Linking CXX executable ../../../bin/test_locks
-[ 82%] Built target test_locks
-[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
-[ 83%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
-[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
-[ 84%] Linking CXX executable ../../../bin/test_expansion_nt
-[ 84%] Built target test_expansion_nt
-[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
-[ 85%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
-[ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
-[ 86%] Linking CXX executable ../../../bin/test_HLBFGS
-[ 86%] Built target test_HLBFGS
-[ 87%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
-[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
+[ 81%] Linking CXX executable ../../../bin/test_locks
+[ 81%] Built target test_locks
+[ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
+[ 82%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
+[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
+[ 83%] Linking CXX executable ../../../bin/test_expansion_nt
+[ 83%] Built target test_expansion_nt
+[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
+[ 84%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
+[ 85%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
+[ 85%] Linking CXX executable ../../../bin/test_HLBFGS
+[ 85%] Built target test_HLBFGS
+[ 86%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
+[ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_RVC/main.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 88%] Linking CXX executable ../../../bin/test_nn_search
-[ 88%] Built target test_nn_search
-[ 89%] Building CXX object src/tests/test_logger/CMakeFiles/test_logger.dir/main.cpp.o
+[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
+2 warnings generated.
+[ 87%] Linking CXX executable ../../../bin/test_RVC
+[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
+[ 87%] Built target test_RVC
+[ 88%] Building CXX object src/tests/test_logger/CMakeFiles/test_logger.dir/main.cpp.o
+[ 89%] Linking CXX executable ../../../bin/test_nn_search
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_logger/main.cpp:42:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-2 warnings generated.
-[ 89%] Linking CXX executable ../../../bin/test_RVC
-[ 89%] Built target test_RVC
+[ 89%] Built target test_nn_search
 [ 90%] Building CXX object src/tests/test_CDT_2d/CMakeFiles/test_CDT_2d.dir/main.cpp.o
 2 warnings generated.
 [ 90%] Linking CXX executable ../../../bin/test_logger
@@ -1251,19 +1251,19 @@ In file included from /Users/runner/work/geogram/geogram/src/tests/test_CDT_2d/m
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/compute_delaunay/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1277,36 +1277,36 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/compute_RVD/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/compute_CSG/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 93%] Linking CXX executable ../../../../bin/compute_CSG
-[ 93%] Built target compute_CSG
 2 warnings generated.
+[ 93%] Linking CXX executable ../../../../bin/compute_RVD
+[ 93%] Built target compute_CSG
 [ 94%] Building CXX object src/examples/geogram/opennl_LSCM/CMakeFiles/opennl_LSCM.dir/main.cpp.o
-[ 94%] Linking CXX executable ../../../../bin/compute_RVD
 [ 94%] Built target compute_RVD
 [ 95%] Building CXX object src/examples/geogram/opennl_mesh_smooth/CMakeFiles/opennl_mesh_smooth.dir/main.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/opennl_mesh_smooth/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 [ 95%] Linking CXX executable ../../../../bin/opennl_LSCM
@@ -1322,19 +1322,19 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/manifold_harmonics/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/simple_raytrace/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1344,10 +1344,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/boolean_operations/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
@@ -1360,10 +1360,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/intersect/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:266:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
                         ^~~~
-/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:283:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
+/Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.

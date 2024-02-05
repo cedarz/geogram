@@ -45,8 +45,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   lgc.c
   linit.c
   liolib.c
-  lmathlib.c
   llex.c
+  lmathlib.c
   lmem.c
   loadlib.c
   lobject.c
@@ -945,8 +945,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zldperm.c
   zmemory.c
   zmyblas2.c
-  zpanel_bmod.c
   zpanel_dfs.c
+  zpanel_bmod.c
   zpivotL.c
   zpivotgrowth.c
   zpruneL.c
