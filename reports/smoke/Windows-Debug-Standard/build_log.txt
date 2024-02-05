@@ -356,8 +356,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_d_acos.c
   libf2c_d_asin.c
   libf2c_d_atan.c
-  libf2c_d_cnjg.c
   libf2c_d_atn2.c
+  libf2c_d_cnjg.c
   libf2c_d_cos.c
   libf2c_d_cosh.c
   libf2c_d_dim.c
@@ -519,8 +519,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   crotg.c
   cscal.c
   csrot.c
-  cswap.c
   csscal.c
+  cswap.c
   csymm.c
   csyr2k.c
   csyrk.c
@@ -941,8 +941,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zgstrs.c
   zlacon2.c
   zlangs.c
-  zldperm.c
   zlaqgs.c
+  zldperm.c
   zmemory.c
   zmyblas2.c
   zpanel_bmod.c
@@ -982,8 +982,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   dsaitr.c
   dsapps.c
   dsaup2.c
-  dsconv.c
   dsaupd.c
+  dsconv.c
   dseigt.c
   dsesrt.c
   dseupd.c
