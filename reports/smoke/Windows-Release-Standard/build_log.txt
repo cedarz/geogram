@@ -45,8 +45,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   lgc.c
   linit.c
   liolib.c
-  llex.c
   lmathlib.c
+  llex.c
   lmem.c
   loadlib.c
   lobject.c
