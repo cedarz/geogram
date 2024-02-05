@@ -1,4 +1,4 @@
-[  0%] Building C object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/libMeshb/sources/libmeshb7.c.o
+[  1%] Building C object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/libMeshb/sources/libmeshb7.c.o
 [  1%] Building C object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/rply/rply.c.o
 [  1%] Building C object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/zlib/adler32.c.o
 [  2%] Building C object src/lib/geogram/third_party/CMakeFiles/geogram_third_party.dir/zlib/compress.c.o
@@ -136,7 +136,7 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 2 warnings generated.
 [ 19%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/line_stream.cpp.o
 [ 19%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/logger.cpp.o
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.cpp:40:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/line_stream.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
@@ -145,7 +145,7 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/line_stream.cpp:41:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
@@ -178,8 +178,6 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 21%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/process_unix.cpp.o
-2 warnings generated.
-[ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/process_win.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process_unix.cpp:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
@@ -188,8 +186,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/progress.cpp.o
 2 warnings generated.
+[ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/process_win.cpp.o
+2 warnings generated.
+[ 22%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/progress.cpp.o
 [ 23%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/basic/quaternion.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/progress.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/progress.h:44:
@@ -275,13 +275,12 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
-[ 28%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/numerics/predicates.cpp.o
 2 warnings generated.
+[ 28%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/numerics/predicates.cpp.o
 [ 28%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh.cpp.o
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/predicates.cpp:49:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/predicates.h:46:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.cpp:40:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
@@ -289,9 +288,10 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.cpp:40:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
-In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/predicates.cpp:49:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/predicates.h:46:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/numerics/PCK.h:45:
+In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:372:25: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                         mask, std::memory_order_acquire
@@ -413,8 +413,8 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
-[ 33%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_geometry.cpp.o
 2 warnings generated.
+[ 33%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_geometry.cpp.o
 [ 34%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_halfedges.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_geometry.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_geometry.h:44:
@@ -440,8 +440,6 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
                               ~~~~~~~~~ ^~~~
 2 warnings generated.
 [ 34%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_io.cpp.o
-2 warnings generated.
-[ 35%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_local_operations.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_io.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_io.h:46:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
@@ -452,6 +450,8 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+2 warnings generated.
+[ 35%] Building CXX object src/lib/geogram/CMakeFiles/geogram.dir/mesh/mesh_local_operations.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_local_operations.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh_halfedges.h:44:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
@@ -1102,8 +1102,8 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 2 warnings generated.
 [ 70%] Linking CXX shared library ../../../lib/libgeogram.dylib
 [ 70%] Built target geogram
-[ 70%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
 [ 70%] Building CXX object src/bin/vorpacomp/CMakeFiles/vorpacomp.dir/main.cpp.o
+[ 70%] Building CXX object src/bin/vorpastat/CMakeFiles/vorpastat.dir/main.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/bin/vorpacomp/main.cpp:43:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
@@ -1156,9 +1156,8 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 2 warnings generated.
 [ 75%] Linking CXX executable ../../../bin/vorpalite
 [ 75%] Built target vorpalite
-[ 75%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/nn_search_ANN.cpp.o
 [ 76%] Building CXX object src/tests/test_convex_cell/CMakeFiles/test_convex_cell.dir/main.cpp.o
-[ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/ANN.cpp.o
+[ 76%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/nn_search_ANN.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_convex_cell/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
@@ -1168,14 +1167,14 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+[ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/ANN.cpp.o
 [ 77%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_fix_rad_search.cpp.o
 [ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_pr_search.cpp.o
-[ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 2 warnings generated.
 [ 78%] Linking CXX executable ../../../bin/test_convex_cell
 [ 78%] Built target test_convex_cell
 [ 78%] Building CXX object src/tests/bench_load/CMakeFiles/bench_load.dir/main.cpp.o
-[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
+[ 78%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_search.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/bench_load/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
@@ -1185,10 +1184,11 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
+[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/bd_tree.cpp.o
 2 warnings generated.
 [ 79%] Linking CXX executable ../../../bin/bench_load
 [ 79%] Built target bench_load
+[ 79%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/brute.cpp.o
 [ 80%] Building CXX object src/tests/test_locks/CMakeFiles/test_locks.dir/main.cpp.o
 [ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_dump.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_locks/main.cpp:42:
@@ -1203,20 +1203,21 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 81%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_fix_rad_search.cpp.o
 2 warnings generated.
 [ 81%] Linking CXX executable ../../../bin/test_locks
-[ 82%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
-[ 82%] Built target test_locks
+[ 81%] Built target test_locks
+[ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_pr_search.cpp.o
 [ 83%] Building CXX object src/tests/test_expansion_nt/CMakeFiles/test_expansion_nt.dir/main.cpp.o
 [ 83%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_search.cpp.o
 [ 83%] Linking CXX executable ../../../bin/test_expansion_nt
 [ 83%] Built target test_expansion_nt
 [ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_split.cpp.o
-[ 84%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
 [ 85%] Building CXX object src/tests/test_HLBFGS/CMakeFiles/test_HLBFGS.dir/main.cpp.o
+[ 85%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_tree.cpp.o
+[ 85%] Linking CXX executable ../../../bin/test_HLBFGS
+[ 85%] Built target test_HLBFGS
 [ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/kd_util.cpp.o
-[ 86%] Linking CXX executable ../../../bin/test_HLBFGS
-[ 86%] Built target test_HLBFGS
+[ 86%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
 [ 87%] Building CXX object src/tests/test_RVC/CMakeFiles/test_RVC.dir/main.cpp.o
-[ 87%] Building CXX object src/tests/test_nn_search/CMakeFiles/test_nn_search.dir/third_party/ANN/perf.cpp.o
+[ 88%] Linking CXX executable ../../../bin/test_nn_search
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_RVC/main.cpp:40:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/mesh/mesh.h:45:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/attributes.h:47:
@@ -1227,7 +1228,6 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 88%] Linking CXX executable ../../../bin/test_nn_search
 [ 88%] Built target test_nn_search
 [ 89%] Building CXX object src/tests/test_logger/CMakeFiles/test_logger.dir/main.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/tests/test_logger/main.cpp:42:
@@ -1314,6 +1314,8 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 [ 96%] Building CXX object src/examples/geogram/manifold_harmonics/CMakeFiles/manifold_harmonics.dir/main.cpp.o
 2 warnings generated.
 [ 96%] Linking CXX executable ../../../../bin/opennl_mesh_smooth
+[ 96%] Built target opennl_mesh_smooth
+[ 97%] Building C object src/examples/geogram/opennl_basic_example/CMakeFiles/opennl_basic_example.dir/main.c.o
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/manifold_harmonics/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
@@ -1323,14 +1325,11 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
-[ 96%] Built target opennl_mesh_smooth
-[ 97%] Building C object src/examples/geogram/opennl_basic_example/CMakeFiles/opennl_basic_example.dir/main.c.o
 [ 97%] Linking C executable ../../../../bin/opennl_basic_example
 [ 97%] Built target opennl_basic_example
 [ 98%] Building CXX object src/examples/geogram/simple_raytrace/CMakeFiles/simple_raytrace.dir/main.cpp.o
 2 warnings generated.
 [ 98%] Linking CXX executable ../../../../bin/manifold_harmonics
-[ 98%] Built target manifold_harmonics
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/simple_raytrace/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/process.h:44:
@@ -1340,6 +1339,7 @@ In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/p
 /Users/runner/work/geogram/geogram/src/lib/geogram/basic/thread_sync.h:389:41: warning: implicit conversion loses integer precision: 'GEO::index_t' (aka 'unsigned long long') to 'unsigned int' [-Wshorten-64-to-32]
                 spinlocks_[w].fetch_and(mask, std::memory_order_release);
                               ~~~~~~~~~ ^~~~
+[ 98%] Built target manifold_harmonics
 [ 99%] Building CXX object src/examples/geogram/boolean_operations/CMakeFiles/boolean_op.dir/main.cpp.o
 In file included from /Users/runner/work/geogram/geogram/src/examples/geogram/boolean_operations/main.cpp:41:
 In file included from /Users/runner/work/geogram/geogram/src/lib/geogram/basic/logger.h:47:
