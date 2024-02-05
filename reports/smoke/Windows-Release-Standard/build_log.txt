@@ -398,8 +398,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_getenv_.c
   libf2c_h_abs.c
   libf2c_h_dim.c
-  libf2c_h_dnnt.c
   libf2c_h_indx.c
+  libf2c_h_dnnt.c
   libf2c_h_len.c
   libf2c_h_mod.c
   libf2c_h_nint.c
@@ -688,8 +688,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   clapack_dlanst.c
   clapack_dlanv2.c
   clapack_dlapy2.c
-  clapack_dlarf.c
   clapack_dlapy3.c
+  clapack_dlarf.c
   clapack_dlarfg.c
   clapack_dlarfp.c
   clapack_dlarfx.c
@@ -861,8 +861,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   ilu_dcolumn_dfs.c
   ilu_dcopy_to_ucol.c
   ilu_ddrop_row.c
-  ilu_dpivotL.c
   ilu_dpanel_dfs.c
+  ilu_dpivotL.c
   ilu_dsnode_dfs.c
   ilu_heap_relax_snode.c
   ilu_relax_snode.c
