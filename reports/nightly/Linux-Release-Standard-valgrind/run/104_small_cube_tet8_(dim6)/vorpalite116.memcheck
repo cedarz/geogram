@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/vorpalite profile=poly pts=300 poly:simplify=tets poly:embedding_dim=6 /home/runner/work/geogram/geogram/tests/data/HighD/small_cube.tet8 out.meshb</line>
 </preamble>
 
-<pid>15368</pid>
-<ppid>12281</ppid>
+<pid>15380</pid>
+<ppid>12284</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -46,7 +46,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:55.219 </time>
+  <time>00:00:00:55.158 </time>
 </status>
 
 <error>
@@ -54,7 +54,7 @@
   <tid>1</tid>
   <kind>Leak_DefinitelyLost</kind>
   <xwhat>
-    <text>112 bytes in 1 blocks are definitely lost in loss record 2 of 4</text>
+    <text>112 bytes in 1 blocks are definitely lost in loss record 2 of 2</text>
     <leakedbytes>112</leakedbytes>
     <leakedblocks>1</leakedblocks>
   </xwhat>
@@ -65,118 +65,22 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x49316F7</ip>
+      <ip>0x4931727</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
     </frame>
     <frame>
-      <ip>0x4931BDC</ip>
+      <ip>0x4931C0C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
     </frame>
     <frame>
-      <ip>0x490B874</ip>
+      <ip>0x490B8A4</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::initialize(int)</fn>
     </frame>
     <frame>
       <ip>0x10DA99</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/vorpalite</obj>
-      <fn>main</fn>
-    </frame>
-  </stack>
-</error>
-
-<error>
-  <unique>0x2</unique>
-  <tid>1</tid>
-  <kind>Leak_DefinitelyLost</kind>
-  <xwhat>
-    <text>300 bytes in 1 blocks are definitely lost in loss record 3 of 4</text>
-    <leakedbytes>300</leakedbytes>
-    <leakedblocks>1</leakedblocks>
-  </xwhat>
-  <stack>
-    <frame>
-      <ip>0x483C583</ip>
-      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
-      <fn>operator new[](unsigned long)</fn>
-    </frame>
-    <frame>
-      <ip>0x4934914</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::PackedArrays::init(unsigned int, unsigned int, bool)</fn>
-    </frame>
-    <frame>
-      <ip>0x4A9E14B</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::Delaunay::update_neighbors()</fn>
-    </frame>
-    <frame>
-      <ip>0x4AAF81C</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::Delaunay_NearestNeighbors::set_vertices(unsigned int, double const*)</fn>
-    </frame>
-    <frame>
-      <ip>0x4ACCE6C</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::CentroidalVoronoiTesselation::Lloyd_iterations(unsigned int)</fn>
-    </frame>
-    <frame>
-      <ip>0x10E24F</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/vorpalite</obj>
-      <fn>main</fn>
-    </frame>
-  </stack>
-</error>
-
-<error>
-  <unique>0x3</unique>
-  <tid>1</tid>
-  <kind>Leak_DefinitelyLost</kind>
-  <xwhat>
-    <text>300 bytes in 1 blocks are definitely lost in loss record 4 of 4</text>
-    <leakedbytes>300</leakedbytes>
-    <leakedblocks>1</leakedblocks>
-  </xwhat>
-  <stack>
-    <frame>
-      <ip>0x483C583</ip>
-      <obj>/usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so</obj>
-      <fn>operator new[](unsigned long)</fn>
-    </frame>
-    <frame>
-      <ip>0x4ACF851</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::Process::BasicSpinLockArray::resize(unsigned int) [clone .isra.0]</fn>
-    </frame>
-    <frame>
-      <ip>0x4BB2B61</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>(anonymous namespace)::RVD_Nd_Impl&lt;6u&gt;::compute_CVT_func_grad_in_volume(double&amp;, double*)</fn>
-    </frame>
-    <frame>
-      <ip>0x4ACB7A6</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::CentroidalVoronoiTesselation::funcgrad(unsigned int, double*, double&amp;, double*)</fn>
-    </frame>
-    <frame>
-      <ip>0x4DF03FC</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>HLBFGS(int, int, double*, void (*)(int, double*, double*, double*, double*), void (*)(int, double*, double*, double*, double*, HESSIAN_MATRIX&amp;), void (*)(int, int, double*, double*, double*, int, double*, int*), void (*)(int, int, double*, double*, double*, double*), double*, int*)</fn>
-    </frame>
-    <frame>
-      <ip>0x4959D7D</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::HLBFGSOptimizer::optimize(double*)</fn>
-    </frame>
-    <frame>
-      <ip>0x4ACB20E</ip>
-      <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
-      <fn>GEO::CentroidalVoronoiTesselation::Newton_iterations(unsigned int, unsigned int)</fn>
-    </frame>
-    <frame>
-      <ip>0x10E2CF</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/vorpalite</obj>
       <fn>main</fn>
     </frame>
