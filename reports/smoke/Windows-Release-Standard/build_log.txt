@@ -378,8 +378,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_derf_.c
   libf2c_derfc_.c
   libf2c_dfe.c
-  libf2c_dtime_.c
   libf2c_dolio.c
+  libf2c_dtime_.c
   libf2c_due.c
   libf2c_ef1asc_.c
   libf2c_ef1cmc_.c
@@ -940,8 +940,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zgstrf.c
   zgstrs.c
   zlacon2.c
-  zlaqgs.c
   zlangs.c
+  zlaqgs.c
   zldperm.c
   zmemory.c
   zmyblas2.c
