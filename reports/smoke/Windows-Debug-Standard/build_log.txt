@@ -546,8 +546,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   drotg.c
   drotm.c
   drotmg.c
-  dscal.c
   dsbmv.c
+  dscal.c
   dsdot.c
   dspmv.c
   dspr.c
@@ -998,8 +998,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   snaitr.c
   snapps.c
   snaup2.c
-  snaupd.c
   snaupe.c
+  snaupd.c
   snconv.c
   sneigh.c
   sneupd.c
