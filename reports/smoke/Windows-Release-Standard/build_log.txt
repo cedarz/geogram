@@ -943,8 +943,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zlangs.c
   zlaqgs.c
   zldperm.c
-  zmemory.c
   zmyblas2.c
+  zmemory.c
   zpanel_bmod.c
   zpanel_dfs.c
   zpivotL.c
