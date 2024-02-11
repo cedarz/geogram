@@ -467,8 +467,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_rewind.c
   libf2c_rsfe.c
   libf2c_rsli.c
-  libf2c_rsne.c
   libf2c_s_cat.c
+  libf2c_rsne.c
   libf2c_s_cmp.c
   libf2c_s_copy.c
   libf2c_s_paus.c
@@ -943,8 +943,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zlangs.c
   zlaqgs.c
   zldperm.c
-  zmyblas2.c
   zmemory.c
+  zmyblas2.c
   zpanel_bmod.c
   zpanel_dfs.c
   zpivotL.c
