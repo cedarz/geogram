@@ -119,8 +119,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   image_serializer.cpp
   image_serializer_pgm.cpp
   image_serializer_stb.cpp
-  morpho_math.cpp
   image_serializer_xpm.cpp
+  morpho_math.cpp
   mesh_ABF.cpp
   mesh_LSCM.cpp
   mesh_PGP_2d.cpp

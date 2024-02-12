@@ -55,8 +55,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   lparser.c
   lstate.c
   lstring.c
-  ltable.c
   lstrlib.c
+  ltable.c
   ltablib.c
   ltm.c
   lundump.c
