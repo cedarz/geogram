@@ -55,8 +55,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   lparser.c
   lstate.c
   lstring.c
-  lstrlib.c
   ltable.c
+  lstrlib.c
   ltablib.c
   ltm.c
   lundump.c
@@ -396,8 +396,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_ftell_.c
   libf2c_getarg_.c
   libf2c_getenv_.c
-  libf2c_h_dim.c
   libf2c_h_abs.c
+  libf2c_h_dim.c
   libf2c_h_dnnt.c
   libf2c_h_indx.c
   libf2c_h_len.c

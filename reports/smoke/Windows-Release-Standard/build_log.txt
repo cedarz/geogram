@@ -191,8 +191,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   nl_context.c
   nl_cuda.c
   nl_iterative_solvers.c
-  nl_mkl.c
   nl_matrix.c
+  nl_mkl.c
   nl_os.c
   nl_preconditioners.c
   nl_superlu.c
