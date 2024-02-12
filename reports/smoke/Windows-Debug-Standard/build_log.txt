@@ -422,8 +422,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_iargc_.c
   libf2c_iio.c
   libf2c_ilnw.c
-  libf2c_inquire.c
   libf2c_l_ge.c
+  libf2c_inquire.c
   libf2c_l_gt.c
   libf2c_l_le.c
   libf2c_l_lt.c
@@ -899,8 +899,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   sgsrfs.c
   sgssv.c
   sgssvx.c
-  sgstrf.c
   sgstrs.c
+  sgstrf.c
   slacon2.c
   slangs.c
   slaqgs.c
