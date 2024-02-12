@@ -384,8 +384,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   libf2c_ef1asc_.c
   libf2c_ef1cmc_.c
   libf2c_endfile.c
-  libf2c_erfc_.c
   libf2c_erf_.c
+  libf2c_erfc_.c
   libf2c_err.c
   libf2c_etime_.c
   libf2c_exit_.c
@@ -925,8 +925,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   ssp_blas3.c
   superlu_timer.c
   sutil.c
-  zcolumn_bmod.c
   util.c
+  zcolumn_bmod.c
   zcolumn_dfs.c
   zcopy_to_ucol.c
   zdiagonal.c
@@ -956,8 +956,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   zsnode_bmod.c
   zsnode_dfs.c
   zsp_blas2.c
-  zutil.c
   zsp_blas3.c
+  zutil.c
   cgetv0.c
   cnaitr.c
   cnapps.c
@@ -989,8 +989,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   dseupd.c
   dsgets.c
   dsortc.c
-  dstatn.c
   dsortr.c
+  dstatn.c
   dstats.c
   dstqrb.c
   sgetv0.c
