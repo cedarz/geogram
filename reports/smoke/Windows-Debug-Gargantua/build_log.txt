@@ -12,8 +12,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   gzlib.c
   gzread.c
   gzwrite.c
-  inflate.c
   inffast.c
+  inflate.c
   inftrees.c
   trees.c
   uncompr.c
