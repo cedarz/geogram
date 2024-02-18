@@ -523,8 +523,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   cswap.c
   csymm.c
   csyr2k.c
-  csyrk.c
   ctbmv.c
+  csyrk.c
   ctbsv.c
   ctpmv.c
   ctpsv.c

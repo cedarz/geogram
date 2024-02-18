@@ -976,8 +976,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   dnaupd.c
   dnaupe.c
   dnconv.c
-  dneigh.c
   dneupd.c
+  dneigh.c
   dngets.c
   dsaitr.c
   dsapps.c
@@ -1001,8 +1001,8 @@ MSBuild version 17.8.5+b5265ef37 for .NET Framework
   snaupd.c
   snaupe.c
   snconv.c
-  sneigh.c
   sneupd.c
+  sneigh.c
   sngets.c
   ssaitr.c
   ssapps.c
