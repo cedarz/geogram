@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/intersect remove_internal_shells=true /home/runner/work/geogram/geogram/tests/data/Intersections/tmp_wing.obj</line>
 </preamble>
 
-<pid>18599</pid>
-<ppid>12545</ppid>
+<pid>18590</pid>
+<ppid>12481</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -42,15 +42,15 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:07.775 </time>
+  <time>00:00:00:06.888 </time>
 </status>
 
 <error>
-  <unique>0x1</unique>
+  <unique>0x4</unique>
   <tid>1</tid>
   <kind>Leak_IndirectlyLost</kind>
   <xwhat>
-    <text>513 bytes in 1 blocks are indirectly lost in loss record 2 of 3</text>
+    <text>513 bytes in 1 blocks are indirectly lost in loss record 5 of 8</text>
     <leakedbytes>513</leakedbytes>
     <leakedblocks>1</leakedblocks>
   </xwhat>
@@ -61,42 +61,42 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x50EE8AF</ip>
+      <ip>0x50FB8AF</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
       <fn>std::__cxx11::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::reserve(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x50E4366</ip>
+      <ip>0x50F1366</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
       <fn>std::__cxx11::basic_stringbuf&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;::overflow(int)</fn>
     </frame>
     <frame>
-      <ip>0x50ECB89</ip>
+      <ip>0x50F9B89</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
       <fn>std::basic_streambuf&lt;char, std::char_traits&lt;char&gt; &gt;::xsputn(char const*, long)</fn>
     </frame>
     <frame>
-      <ip>0x50DE853</ip>
+      <ip>0x50EB853</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.28</obj>
       <fn>std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp; std::__ostream_insert&lt;char, std::char_traits&lt;char&gt; &gt;(std::basic_ostream&lt;char, std::char_traits&lt;char&gt; &gt;&amp;, char const*, long)</fn>
     </frame>
     <frame>
-      <ip>0x4A703DD</ip>
+      <ip>0x4A7D506</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::MeshSurfaceIntersection::intersect_remesh_intersections(GEO::vector&lt;GEO::IsectInfo&gt;&amp;)::{lambda(unsigned int, unsigned int)#2}::operator()(unsigned int, unsigned int) const</fn>
     </frame>
     <frame>
-      <ip>0x4935FBD</ip>
+      <ip>0x4936A7D</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>(anonymous namespace)::ParallelForSliceThread::run()</fn>
     </frame>
     <frame>
-      <ip>0x493BAB6</ip>
+      <ip>0x493C576</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>(anonymous namespace)::PThreadManager::run_thread(void*)</fn>
     </frame>
     <frame>
-      <ip>0x53A4608</ip>
+      <ip>0x53B1608</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libpthread-2.31.so</obj>
       <fn>start_thread</fn>
       <dir>/build/glibc-wuryBv/glibc-2.31/nptl</dir>
@@ -104,7 +104,7 @@
       <line>477</line>
     </frame>
     <frame>
-      <ip>0x52C7352</ip>
+      <ip>0x52D4352</ip>
       <obj>/usr/lib/x86_64-linux-gnu/libc-2.31.so</obj>
       <fn>clone</fn>
       <dir>/build/glibc-wuryBv/glibc-2.31/misc/../sysdeps/unix/sysv/linux/x86_64</dir>
@@ -115,11 +115,11 @@
 </error>
 
 <error>
-  <unique>0x2</unique>
+  <unique>0x5</unique>
   <tid>1</tid>
   <kind>Leak_DefinitelyLost</kind>
   <xwhat>
-    <text>625 (112 direct, 513 indirect) bytes in 1 blocks are definitely lost in loss record 3 of 3</text>
+    <text>625 (112 direct, 513 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 8</text>
     <leakedbytes>625</leakedbytes>
     <leakedblocks>1</leakedblocks>
   </xwhat>
@@ -130,22 +130,22 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x49315B7</ip>
+      <ip>0x4932077</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
     </frame>
     <frame>
-      <ip>0x4931A9C</ip>
+      <ip>0x493255C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
     </frame>
     <frame>
-      <ip>0x490B734</ip>
+      <ip>0x490C1F4</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::initialize(int)</fn>
     </frame>
     <frame>
-      <ip>0x10BDEB</ip>
+      <ip>0x10BD5B</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/intersect</obj>
       <fn>main</fn>
     </frame>
@@ -157,8 +157,16 @@
 
 <suppcounts>
   <pair>
-    <count>1</count>
+    <count>3</count>
     <name>Vorpaline_gomp_64bits_leak_2</name>
+  </pair>
+  <pair>
+    <count>2</count>
+    <name>Vorpaline_gomp_64bits_leak_4</name>
+  </pair>
+  <pair>
+    <count>1</count>
+    <name>Vorpaline_gomp_64bits_leak_1</name>
   </pair>
 </suppcounts>
 

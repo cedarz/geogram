@@ -12,8 +12,8 @@
   <line>Command: /home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/test_convex_cell shape=file algo:predicates=exact /home/runner/work/geogram/geogram/tests/data/ConvexCell/sphere_1000.xyz</line>
 </preamble>
 
-<pid>7142</pid>
-<ppid>6885</ppid>
+<pid>7100</pid>
+<ppid>6847</ppid>
 <tool>memcheck</tool>
 
 <args>
@@ -43,7 +43,7 @@
 
 <status>
   <state>FINISHED</state>
-  <time>00:00:00:03.157 </time>
+  <time>00:00:00:03.146 </time>
 </status>
 
 <error>
@@ -62,22 +62,22 @@
       <fn>operator new(unsigned long)</fn>
     </frame>
     <frame>
-      <ip>0x495BF87</ip>
+      <ip>0x495C977</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::Logger()</fn>
     </frame>
     <frame>
-      <ip>0x495C46C</ip>
+      <ip>0x495CE5C</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::Logger::initialize()</fn>
     </frame>
     <frame>
-      <ip>0x4932EC1</ip>
+      <ip>0x49338B1</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/lib/libgeogram.so.1.8.9-rc</obj>
       <fn>GEO::initialize(int)</fn>
     </frame>
     <frame>
-      <ip>0x10BFD0</ip>
+      <ip>0x10BF50</ip>
       <obj>/home/runner/work/geogram/geogram/build/Linux64-gcc-dynamic-Release/bin/test_convex_cell</obj>
       <fn>main</fn>
     </frame>
