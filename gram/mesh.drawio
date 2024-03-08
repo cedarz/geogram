@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-08T05:53:47.739Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="u6yRhSwVMmiQeYrX8co-" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T05:59:53.501Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="m8D3L69GbxqWZSG2apyg" version="24.0.2" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
-    <mxGraphModel dx="1885" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1885" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,7 +25,7 @@
         <mxCell id="1BC19tzi-7-pTtwrjPw2-6" value="MeshCells cells" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="910" y="550" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="1BC19tzi-7-pTtwrjPw2-7" value="MeshVertices&amp;nbsp;vertices" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="1BC19tzi-7-pTtwrjPw2-7" value="vtkPoints*&amp;nbsp; Points" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="470" y="170" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1BC19tzi-7-pTtwrjPw2-8" value="Geogram/Mesh" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
@@ -33,6 +33,12 @@
         </mxCell>
         <mxCell id="1BC19tzi-7-pTtwrjPw2-9" value="VTK/vtkPolyData" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="490" y="70" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1BC19tzi-7-pTtwrjPw2-10" value="1.&amp;nbsp;&lt;a href=&quot;https://vtk.org/doc/nightly/html/classvtkPolyData.html&quot;&gt;VTK: vtkPolyData Class Reference&lt;/a&gt;&lt;div&gt;2.&amp;nbsp;&lt;a style=&quot;background-color: initial;&quot; href=&quot;https://github.com/BrunoLevy/geogram/wiki/Mesh&quot;&gt;Mesh · BrunoLevy/geogram Wiki (github.com)&lt;/a&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="770" y="1130" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1BC19tzi-7-pTtwrjPw2-11" value="继承自父类" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
