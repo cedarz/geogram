@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T03:31:22.516Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ym2fdmZrVWHK5jIgiQ8V" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T03:35:16.585Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Z1MLytF7ElX8daU_2EBv" version="24.0.2" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
-    <mxGraphModel dx="2384" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,7 +174,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-20" value="&lt;div&gt;CellDescriptor&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="1040" width="160" height="40" as="geometry" />
+          <mxGeometry x="1790" y="1090" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.619;entryY=1.043;entryDx=0;entryDy=0;exitX=0.371;exitY=-0.014;exitDx=0;exitDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-21" target="H90W-LeO9eNFpw4Knfnw-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -225,7 +225,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-30" value="&lt;div&gt;MeshElementsFlags&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1940" y="1090" width="160" height="40" as="geometry" />
+          <mxGeometry x="1790" y="1140" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-21" value="&lt;div&gt;&lt;div&gt;MeshCellsStore&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool is_simplicial_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Numeric::uint8&amp;gt; cell_type_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; cell_ptr_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1240" width="210" height="70" as="geometry" />
@@ -235,6 +235,9 @@
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-35" value="&lt;font color=&quot;#ff2d0d&quot; face=&quot;Courier New&quot; style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Mesh&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2150" y="1470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-36" value="&lt;div&gt;MeshCellType&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1790" y="1040" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
