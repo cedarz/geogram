@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T01:52:19.375Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="w7EXkUCfR3s8lTvVB9om" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T02:21:32.946Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="n4llPsX3m-w7WWb3mkNe" version="24.0.2" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
     <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -87,6 +87,12 @@
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-1" value="派生vtkFloatArray，然后把MeshVertices的数据指针赋给vtkFloatArray的底层数据内存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1450" y="170" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-2" value="MeshSubElementsStore&lt;div&gt;&lt;div&gt;Mesh&amp;amp; mesh_;&lt;/div&gt;&lt;div&gt;AttributesManager attributes_;&lt;/div&gt;&lt;div&gt;index_t nb_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1110" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-3" value="MeshElements = 0&lt;div&gt;vertices, facets and cells&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="1110" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
