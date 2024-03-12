@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-12T03:03:12.178Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="CtyQrPfr1hoquucLGXqC" version="24.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-12T03:14:03.066Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="LC1dJfC4MOrxymxmTD0a" version="24.0.2" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
     <mxGraphModel dx="1636" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -89,13 +89,13 @@
           <mxGeometry x="1450" y="170" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-2" value="MeshSubElementsStore&lt;div&gt;&lt;div&gt;Mesh&amp;amp; mesh_;&lt;/div&gt;&lt;div&gt;AttributesManager attributes_;&lt;/div&gt;&lt;div&gt;index_t nb_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="1100" width="210" height="70" as="geometry" />
+          <mxGeometry x="1330" y="1090" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-3" value="MeshElements = 0&lt;div&gt;vertices, facets and cells&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="870" y="1100" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-4" value="&lt;div&gt;MeshVertices&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;MeshEdges&amp;amp; edges_;&lt;/div&gt;&lt;div&gt;MeshFacetCornersStore&amp;amp; facet_corners_;&lt;/div&gt;&lt;div&gt;MeshCellCornersStore&amp;amp; cell_corners_;&lt;/div&gt;&lt;div&gt;Attribute&amp;lt;double&amp;gt; point_;&lt;/div&gt;&lt;div&gt;Attribute&amp;lt;float&amp;gt; point_fp32_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="680" y="1360" width="230" height="120" as="geometry" />
+          <mxGeometry x="570" y="1370" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.19;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-4" target="H90W-LeO9eNFpw4Knfnw-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -116,10 +116,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-9" value="MeshEdges&lt;div&gt;vector&amp;lt;index_t&amp;gt; edge_vertex_;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1360" width="230" height="120" as="geometry" />
+          <mxGeometry x="850" y="1370" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="H90W-LeO9eNFpw4Knfnw-10" value="MeshFacetsStore&lt;div&gt;vector&amp;lt;index_t&amp;gt; facet_ptr_;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="1230" width="210" height="70" as="geometry" />
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-10" value="MeshFacetsStore&lt;div&gt;bool is_simplicial_;&lt;br&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; facet_ptr_;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1230" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.19;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -129,6 +129,73 @@
               <mxPoint x="1030" y="1270" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-12" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.086;entryY=1.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-9" target="H90W-LeO9eNFpw4Knfnw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="904" y="1360.04" as="sourcePoint" />
+            <mxPoint x="1210" y="1172.04" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1110" y="1270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-13" value="&lt;div&gt;&lt;div&gt;MeshFacetCornersStore&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;MeshVertices&amp;amp; vertices_;&lt;/div&gt;&lt;div&gt;MeshFacetsStore&amp;amp; facets_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; corner_vertex_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; corner_adjacent_facet_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="1230" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-14" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.176;entryY=1.043;entryDx=0;entryDy=0;exitX=0.324;exitY=-0.057;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-10" target="H90W-LeO9eNFpw4Knfnw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1168" y="1357.96" as="sourcePoint" />
+            <mxPoint x="1271" y="1170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-16" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.011;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.41;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-13" target="H90W-LeO9eNFpw4Knfnw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1379.96" y="1226" as="sourcePoint" />
+            <mxPoint x="1420" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1450" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-17" value="&lt;div&gt;&lt;div&gt;MeshFacets&lt;br&gt;&lt;/div&gt;&lt;div&gt;MeshVertices&amp;amp; vertices_;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;MeshFacetCornersStore&amp;amp; facet_corners_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="1370" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0.19;entryY=1.143;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1049.63" y="1365.01" as="sourcePoint" />
+            <mxPoint x="1071.93" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090.63" y="1265.01" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-19" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.461;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1089.63" y="1497.96" as="sourcePoint" />
+            <mxPoint x="1280.63" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1230" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-20" value="&lt;div&gt;CellDescriptor&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1070" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-21" value="&lt;div&gt;&lt;div&gt;MeshCellsStore&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;bool is_simplicial_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;Numeric::uint8&amp;gt; cell_type_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; cell_ptr_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1740" y="1240" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-22" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="H90W-LeO9eNFpw4Knfnw-21" target="H90W-LeO9eNFpw4Knfnw-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1489.04" y="1201" as="sourcePoint" />
+            <mxPoint x="1380" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1640" y="1210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H90W-LeO9eNFpw4Knfnw-23" value="MeshCellCornersStore&lt;br&gt;&lt;div&gt;&lt;div&gt;MeshVertices&amp;amp; vertices_;&lt;/div&gt;&lt;div&gt;vector&amp;lt;index_t&amp;gt; corner_vertex_;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1980" y="1240" width="210" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
