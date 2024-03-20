@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T02:05:01.884Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="O2fFkEnktBAR3h9IoPua" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T06:21:19.086Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="6cEgag0IMWEca0xvCi3d" version="24.0.5" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
     <mxGraphModel dx="1834" dy="889" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -244,6 +244,9 @@
         </mxCell>
         <mxCell id="H90W-LeO9eNFpw4Knfnw-38" value="Notes:&lt;div&gt;1. vtkPoints默认float，Geogram的MeshVertices默认double，Mesh构造函数可以设置&lt;/div&gt;&lt;div&gt;2. vtk的id默认是64位，Geogram的index默认32位，defs.h可以设置为64位&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1760" y="120" width="500" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-1" value="&lt;font face=&quot;Courier New&quot; color=&quot;#294cff&quot;&gt;cell_type_, cell类型&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Courier New&quot; color=&quot;#294cff&quot;&gt;cell_ptr_, 存放类型，nb()+1&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1320" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
