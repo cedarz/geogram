@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T03:07:59.676Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="Q1uSBDyfF0BzE0KVmTsV" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T03:10:41.872Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="JNFt29AH23is6L8DJrkB" version="24.0.5" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
     <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -79,10 +79,10 @@
         <mxCell id="1BC19tzi-7-pTtwrjPw2-24" value="&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 14px;&quot; face=&quot;Courier New&quot;&gt;为三角形或多边形面，对应vtkPoly Data的Polys&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="750" y="360" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="1BC19tzi-7-pTtwrjPw2-25" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;更倾向于独立线段，类似id数量为2的vtkPolyLine&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1220" y="275" width="190" height="30" as="geometry" />
+        <mxCell id="1BC19tzi-7-pTtwrjPw2-25" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;每个edge两个端点，类似id数量为2的vtkPolyLine或者vtkLine&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="275" width="200" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="1BC19tzi-7-pTtwrjPw2-26" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;四面体网格等，暂时未找到对应vtkPolyData方法，VTK主要使用vtkUnstructuredGrid&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="1BC19tzi-7-pTtwrjPw2-26" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;四面体网格等，vtkPolyData没有对应的拓扑可视化功能，VTK主要使用vtkUnstructuredGrid可视化体网格&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1220" y="540" width="275" height="65" as="geometry" />
         </mxCell>
         <mxCell id="1BC19tzi-7-pTtwrjPw2-27" value="&lt;h1&gt;V0.2&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
