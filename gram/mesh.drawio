@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T03:21:11.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="LzdXu3hoaiDI4TTYwqYm" version="24.0.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-22T09:30:21.873Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WfaLfrDCUzwhX2UeeZyA" version="24.0.5" type="github">
   <diagram name="第 1 页" id="XMMu1WaElMCEHJz5GcHH">
-    <mxGraphModel dx="2026" dy="1153" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2293" dy="1111" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -47,7 +47,7 @@
           <mxGeometry x="240" y="180" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1BC19tzi-7-pTtwrjPw2-12" value="MeshFacetCornersStore facet_corners" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="1020" y="460" width="230" height="40" as="geometry" />
+          <mxGeometry x="1020" y="870" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="1BC19tzi-7-pTtwrjPw2-13" value="&lt;div&gt;&amp;nbsp; vtkSmartPointer&amp;lt;vtkCellArray&amp;gt; Verts;&lt;/div&gt;&lt;div&gt;&amp;nbsp; vtkSmartPointer&amp;lt;vtkCellArray&amp;gt; Lines;&lt;/div&gt;&lt;div&gt;&amp;nbsp; vtkSmartPointer&amp;lt;vtkCellArray&amp;gt; Polys;&lt;/div&gt;&lt;div&gt;&amp;nbsp; vtkSmartPointer&amp;lt;vtkCellArray&amp;gt; Strips;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="390" y="270" width="220" height="130" as="geometry" />
@@ -285,7 +285,25 @@
           <mxGeometry x="395" y="490" width="185" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z10PdW8iMCry290luzMG-13" value="MeshSubElementsStore" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="950" y="720" width="170" height="40" as="geometry" />
+          <mxGeometry x="1020" y="730" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-14" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;通过AttributesManager维护顶点属性&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="717.5" width="275" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-15" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font color=&quot;#0066cc&quot; style=&quot;font-size: 20px;&quot;&gt;vtkPolyData&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="395" y="680" width="135" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-16" value="&lt;div&gt;polydata-&amp;gt;GetPointData()-&amp;gt;AddArray(texCoords);&lt;/div&gt;&lt;div&gt;polydata-&amp;gt;GetPointData()-&amp;gt;SetActiveTCoords(&quot;TCoords&quot;)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="685" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.991;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1020" y="749.38" as="sourcePoint" />
+            <mxPoint x="608" y="749.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z10PdW8iMCry290luzMG-18" value="&lt;font face=&quot;Courier New&quot; color=&quot;#0066cc&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;geogram和vtk的各顶点属性，都有一套各自的默认命名&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="710" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
